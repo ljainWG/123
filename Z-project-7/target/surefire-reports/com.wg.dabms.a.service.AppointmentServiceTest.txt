@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.wg.dabms.a.service.AppointmentServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE!
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByDoctorIdAndStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.getAppointmentsByDoctorIdAndStatus(String, com.wg.dabms.model.enums.AppointmentStatus)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByDoctorIdAndStatus(AppointmentServiceTest.java:134)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByPatientIdAndStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.getAppointmentsByPatientIdAndStatus(String, com.wg.dabms.model.enums.AppointmentStatus)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByPatientIdAndStatus(AppointmentServiceTest.java:146)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.getAppointmentsByStatus(com.wg.dabms.model.enums.AppointmentStatus)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByStatus(AppointmentServiceTest.java:157)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByDoctorId()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.findAppointmentsByDoctorId(String)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByDoctorId(AppointmentServiceTest.java:111)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByPatientId()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.findAppointmentsByPatientId(String)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentsByPatientId(AppointmentServiceTest.java:100)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testUpdateAppointmentStatus()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.updateAppointmentStatus(String, com.wg.dabms.model.enums.AppointmentStatus)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testUpdateAppointmentStatus(AppointmentServiceTest.java:122)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testDeleteAppointment()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.deleteAppointment(String)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testDeleteAppointment(AppointmentServiceTest.java:89)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentById()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.getAppointmentById(String)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAppointmentById(AppointmentServiceTest.java:37)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testCreateAppointment()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.createAppointment(com.wg.dabms.model.Appointment)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testCreateAppointment(AppointmentServiceTest.java:57)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testGetAllAppointments()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.getAllAppointments()" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testGetAllAppointments(AppointmentServiceTest.java:47)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testUpdateAppointment()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.updateAppointment(com.wg.dabms.model.Appointment)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testUpdateAppointment(AppointmentServiceTest.java:79)
+
+com.wg.dabms.a.service.AppointmentServiceTest.testIsSlotAvailable()  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.AppointmentDAO.isSlotAvailable(String, java.time.LocalDate, com.wg.dabms.model.enums.TimeSlot)" because "this.appointmentDAO" is null
+	at com.wg.dabms.a.service.AppointmentServiceTest.testIsSlotAvailable(AppointmentServiceTest.java:69)
+

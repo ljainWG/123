@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.wg.dabms.a.dao.UserDAOTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.232 sec <<< FAILURE!
+com.wg.dabms.a.dao.UserDAOTest.testCreateUser()  Time elapsed: 0.228 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeUpdate(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testCreateUser(UserDAOTest.java:94)
+
+com.wg.dabms.a.dao.UserDAOTest.testGetUserById()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testGetUserById(UserDAOTest.java:56)
+
+com.wg.dabms.a.dao.UserDAOTest.testGetAllUsers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetAllQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testGetAllUsers(UserDAOTest.java:81)
+
+com.wg.dabms.a.dao.UserDAOTest.testUpdateUser()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeUpdate(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testUpdateUser(UserDAOTest.java:131)
+
+com.wg.dabms.a.dao.UserDAOTest.testDeleteUser()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeDelete(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testDeleteUser(UserDAOTest.java:201)
+
+com.wg.dabms.a.dao.UserDAOTest.testFindByEmail()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testFindByEmail(UserDAOTest.java:227)
+
+com.wg.dabms.a.dao.UserDAOTest.testFindUsersByUsernameAndRole()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetAllQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testFindUsersByUsernameAndRole(UserDAOTest.java:42)
+
+com.wg.dabms.a.dao.UserDAOTest.testFindUsersByRole()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetAllQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testFindUsersByRole(UserDAOTest.java:214)
+
+com.wg.dabms.a.dao.UserDAOTest.testFindUsersByDepartment()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetAllQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testFindUsersByDepartment(UserDAOTest.java:240)
+
+com.wg.dabms.a.dao.UserDAOTest.testFindUsersByUsername()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.wg.dabms.a.dao.UserDAO.executeGetAllQuery(String, Object[])" because "this.userDAO" is null
+	at com.wg.dabms.a.dao.UserDAOTest.testFindUsersByUsername(UserDAOTest.java:69)
+
